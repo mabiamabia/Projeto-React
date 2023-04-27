@@ -2,6 +2,7 @@ import "./App.css";
 import AnotherComponent from "./components/AnotherComponent";
 import "./components/FirstComponent";
 import FirstComponent from "./components/FirstComponent";
+import Hooks from "./components/Hooks";
 import Images from "./components/Images";
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <FirstComponent />
       <AnotherComponent />
       <Images />
+      <Hooks />
+      <hr />
     </div>
   );
 }
